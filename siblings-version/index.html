@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Custom Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div>
+    <section id="output">
+      <h1>Age Calculator</h1>
+      <p>You and your siblings' <span id="calctype-output">average</span> age is:</p>
+      <p id="calc-output">0.00 years</p>
+    </section>
+
+    <section id="options">
+      <div>
+        <button id="remove">-</button>
+        <label>Add/Remove Sibling</label>
+        <button id="add">+</button>
+      </div>
+      <label>Calculate:
+        <select id="calctype-input">
+          <option value="average">Average Age</option>
+          <option value="combined">Combined Age</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="inputs">
+      <div>
+        <label>Your Age:</label>
+        <input id="your-age" type="number" value="0">
+      </div>
+      <!-- Dynamically add siblings' inputs -->
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
