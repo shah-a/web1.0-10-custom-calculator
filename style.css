@@ -1,0 +1,82 @@
+/*Colour palette: https://colorhunt.co/palette/213547
+#eeeeee
+#686d76
+#373a40
+#19d3da
+*/
+
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #686d76;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+h1 {
+  color: #373a40;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #373a40;
+}
+
+#output, #options {
+  width: 300px;
+  height: 200px;
+}
+
+#inputs {
+  width: 300px;
+  height: 100px;
+  transition: all 0.2s;
+}
+
+#output h1, #output p {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+#calctype-output {
+  color: #19d3da;
+  font-weight: bold;
+}
+
+#output, #options, #inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#options label, #options button {
+  color: #373a40;
+  padding: 0.35em;
+}
+
+#options button {
+  width: 25px;
+  height: 25px;
+}
+
+#options select {
+  border: 1px solid #373a40;
+  padding: 0.5em;
+  text-align: center;
+}
+
+#inputs label, #inputs input {
+  padding: 0.35em;
+}
+
+#inputs input {
+  width: 100px;
+  text-align: center;
+}
