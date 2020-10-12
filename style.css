@@ -22,21 +22,29 @@ body > div {
   align-items: center;
 }
 
-section {
-  margin: 0.5em;
-  padding: 0.5em;
-  border: 1px solid #373a40;
-}
-
 #output, #options {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  margin: 0.5em;
+  padding: 0.5em 0;
+  border: 1px solid #373a40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #inputs {
-  width: 300px;
-  height: 100px;
-  transition: all 0.2s;
+  width: 350px;
+  margin: 0.5em;
+  padding: 0.5em 0;
+  border: 1px solid #373a40;
+}
+
+#inputs > div {
+  margin: 0 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #output h1, #output p {
@@ -49,15 +57,8 @@ section {
   font-weight: bold;
 }
 
-#output, #options, #inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #options label, #options button {
-  color: #373a40;
+  color: #686d76;
   padding: 0.35em;
 }
 
